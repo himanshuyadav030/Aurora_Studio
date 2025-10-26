@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Aurora Studio - Contact us for your next project">
+    <title>Aurora Studio - Contact Us</title>
+    <link rel="stylesheet" href="assets\fontawesome-free-7.1.0-web\css\all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container nav__container">
+                <div class="nav__brand">
+                    <a href="index.html" class="nav__logo">
+                        <i class="fas fa-sun"></i>
+                        Aurora Studio
+                    </a>
+                </div>
+
+                <!-- Checkbox for mobile menu toggle -->
+                <input type="checkbox" id="nav-toggle" class="nav__toggle">
+                <label for="nav-toggle" class="nav__toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <ul class="nav__menu">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header__title">Get In Touch</h1>
+                <p class="page-header__subtitle">We'd love to hear from you and discuss your project</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <!-- Contact Form -->
+                    <div class="contact__form-wrapper">
+                        <h2 class="contact__heading">Send Us a Message</h2>
+                        <form action="#" method="post" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    class="form-input" 
+                                    required 
+                                    placeholder="John Doe"
+                                    aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    class="form-input" 
+                                    required 
+                                    placeholder="john@example.com"
+                                    aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <select 
+                                    id="subject" 
+                                    name="subject" 
+                                    class="form-select" 
+                                    required
+                                    aria-required="true">
+                                    <option value="">-- Please Select --</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="web-design">Web Design</option>
+                                    <option value="development">Development</option>
+                                    <option value="mobile-app">Mobile App</option>
+                                    <option value="marketing">Marketing</option>
+                                    <option value="support">Support</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    class="form-textarea" 
+                                    rows="6" 
+                                    required 
+                                    placeholder="Tell us about your project..."
+                                    aria-required="true"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn--primary btn--large form-submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send Message
+                                </button>
+                            </div>
+
+                            <p class="form-note">
+                                <small>* Required fields. We'll get back to you within 24 hours.</small>
+                            </p>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact__info">
+                        <h2 class="contact__heading">Contact Information</h2>
+                        
+                        <div class="contact-info">
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-info__content">
+                                    <h3 class="contact-info__title">Office Address</h3>
+                                    <address class="contact-info__text">
+                                        123 Innovation Street<br>
+                                        Tech City, TC 12345<br>
+                                        United States
+                                    </address>
+                                </div>
+                            </div>
+
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-info__content">
+                                    <h3 class="contact-info__title">Phone</h3>
+                                    <p class="contact-info__text">
+                                        <a href="tel:+1234567890">+1 (234) 567-890</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-info__content">
+                                    <h3 class="contact-info__title">Email</h3>
+                                    <p class="contact-info__text">
+                                        <a href="mailto:hello@aurorastudio.com">hello@aurorastudio.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-info__content">
+                                    <h3 class="contact-info__title">Business Hours</h3>
+                                    <p class="contact-info__text">
+                                        Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                        Saturday: 10:00 AM - 4:00 PM<br>
+                                        Sunday: Closed
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="contact__social">
+                            <h3 class="contact__social-title">Follow Us</h3>
+                            <div class="contact__social-links">
+                                <a href="#" class="contact__social-link" aria-label="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="contact__social-link" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="contact__social-link" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="contact__social-link" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="contact__social-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map">
+            <div class="container">
+                <h2 class="section__title">Find Us Here</h2>
+                <div class="map__placeholder">
+                    <div class="map__content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p class="map__text">Interactive Map Placeholder</p>
+                        <p class="map__subtext">123 Innovation Street, Tech City, TC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2 class="section__title">Frequently Asked Questions</h2>
+                <p class="section__description">Quick answers to common questions</p>
+
+                <div class="faq__list">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq1" class="faq-item__toggle">
+                        <label for="faq1" class="faq-item__question">
+                            <span>What services does Aurora Studio offer?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </label>
+                        <div class="faq-item__answer">
+                            <p>
+                                We offer a comprehensive range of digital services including web design, 
+                                web development, mobile app development, digital marketing, branding, 
+                                and ongoing support and maintenance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq2" class="faq-item__toggle">
+                        <label for="faq2" class="faq-item__question">
+                            <span>How long does a typical project take?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </label>
+                        <div class="faq-item__answer">
+                            <p>
+                                Project timelines vary depending on scope and complexity. A simple website 
+                                might take 2-4 weeks, while a complex web application could take 2-6 months. 
+                                We'll provide a detailed timeline during our initial consultation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq3" class="faq-item__toggle">
+                        <label for="faq3" class="faq-item__question">
+                            <span>What is your pricing structure?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </label>
+                        <div class="faq-item__answer">
+                            <p>
+                                We offer flexible pricing options including project-based pricing and 
+                                monthly retainers. Our Starter plan begins at $299/month, Professional 
+                                at $799/month, and we offer custom Enterprise solutions. Contact us for 
+                                a personalized quote.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq4" class="faq-item__toggle">
+                        <label for="faq4" class="faq-item__question">
+                            <span>Do you provide ongoing support after project completion?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </label>
+                        <div class="faq-item__answer">
+                            <p>
+                                Yes! We offer various support packages to ensure your website or 
+                                application continues to run smoothly. This includes updates, 
+                                security patches, content updates, and technical assistance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq5" class="faq-item__toggle">
+                        <label for="faq5" class="faq-item__question">
+                            <span>Can you work with our existing brand guidelines?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </label>
+                        <div class="faq-item__answer">
+                            <p>
+                                Absolutely! We're experienced in working with established brand guidelines 
+                                and can seamlessly integrate your existing visual identity into new digital 
+                                projects while maintaining brand consistency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">Aurora Studio</h3>
+                    <p class="footer__description">
+                        Creating exceptional digital experiences since 2020.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="about.html" class="footer__link">About</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Web Design</a></li>
+                        <li><a href="#" class="footer__link">Development</a></li>
+                        <li><a href="#" class="footer__link">Mobile Apps</a></li>
+                        <li><a href="#" class="footer__link">Marketing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact</h4>
+                    <address class="footer__address">
+                        <p>123 Innovation Street</p>
+                        <p>Tech City, TC 12345</p>
+                        <p>Email: <a href="mailto:hello@aurorastudio.com" class="footer__link">hello@aurorastudio.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890" class="footer__link">+1 (234) 567-890</a></p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 Aurora Studio. All rights reserved.
+                </p>
+                <p class="footer__credits">
+                    Images courtesy of <a href="https://unsplash.com" target="_blank" rel="noopener" class="footer__link">Unsplash</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
